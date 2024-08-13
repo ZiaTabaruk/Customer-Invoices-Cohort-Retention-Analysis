@@ -1,5 +1,7 @@
 # Cohort Retention Analysis
 
+![image.png](attachment:image.png)
+
 ## Latar Belakang
 
 Pengelolaan pembayaran invoice merupakan bagian penting dari operasional keuangan perusahaan. Dalam bisnis, pengelolaan cash flow dan arus kas sangat penting untuk memastikan kelancaran operasi dan kesehatan keuangan perusahaan. Mengetahui kapan pembayaran invoice akan dilakukan dapat membantu perusahaan dalam merencanakan cash flow, mengoptimalkan proses penagihan, dan mengurangi risiko piutang tak tertagih. 
