@@ -1,6 +1,6 @@
 # Cohort Retention Analysis
 
-![image.png](attachment:image.png)
+![image](https://github.com/user-attachments/assets/68959e45-c1e9-479b-b7d8-cbf1f8eaa67b)
 
 ## Latar Belakang
 
