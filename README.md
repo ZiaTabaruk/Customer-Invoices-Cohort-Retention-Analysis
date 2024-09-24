@@ -1,4 +1,4 @@
-# Cohort Retention Analysis
+# Customer Invoices Cohort Retention Analysis
 
 ![image](https://github.com/user-attachments/assets/4e2cb00c-5028-4724-8281-0e423ca34e5c)
 
@@ -73,4 +73,4 @@ Dengan mengikuti rekomendasi ini, perusahaan dapat meningkatkan tingkat retensi 
 
 ## Dashboard Looker
 
-[Cohort Retention Dashboard](https://lookerstudio.google.com/u/0/reporting/1196afe5-79a0-49f3-aed1-78ad9f7f04f2/page/fnj7D) untuk visualisasi menggunakan Lookerstudio
+[Cohort Retention Dashboard](https://lookerstudio.google.com/reporting/1196afe5-79a0-49f3-aed1-78ad9f7f04f2) untuk visualisasi menggunakan Lookerstudio
