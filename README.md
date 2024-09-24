@@ -5,45 +5,71 @@
 
 ## Latar Belakang
 
-Pengelolaan pembayaran invoice merupakan bagian penting dari operasional keuangan perusahaan. Dalam bisnis, pengelolaan cash flow dan arus kas sangat penting untuk memastikan kelancaran operasi dan kesehatan keuangan perusahaan. Mengetahui kapan pembayaran invoice akan dilakukan dapat membantu perusahaan dalam merencanakan cash flow, mengoptimalkan proses penagihan, dan mengurangi risiko piutang tak tertagih. 
-
-## Rumusan Masalah
-
-Perusahaan mengalami kesulitan dalam memprediksi tanggal pembayaran invoice, yang menyebabkan ketidakpastian dalam pengelolaan arus kas. Ketidakpastian ini dapat mempengaruhi operasional bisnis dan keputusan strategis yang bergantung pada ketersediaan dana.
-
-## Tujuan
-
-Tujuan perusahaan adalah untuk menganalisis retensi cohort dan mengidentifikasi tren pembelian dari waktu ke waktu. Dengan analisis ini, perusahaan berharap dapat meningkatkan akurasi prediksi pembayaran invoice dan mengoptimalkan manajemen arus kas.
+Pengelolaan pembayaran invoice merupakan bagian penting dari operasional keuangan perusahaan. Dalam bisnis, pemahaman tentang pola pembayaran pelanggan sangat penting untuk memastikan kelancaran operasi dan kesehatan keuangan perusahaan. Analisis retensi cohort adalah salah satu cara untuk memahami perilaku pelanggan dari waktu ke waktu, sehingga perusahaan dapat mengidentifikasi tren, mengoptimalkan strategi penagihan, dan meningkatkan retensi pelanggan.
 
 ## Stakeholder
 
-Pihak Terkait:
-1.	Tim Keuangan: Menggunakan prediksi tanggal pembayaran untuk mengelola arus kas dan merencanakan kebutuhan keuangan perusahaan.
-2.	Tim Penjualan dan Penagihan: Mengoptimalkan proses penagihan dan mengidentifikasi pelanggan yang membutuhkan perhatian khusus.
-3.	Manajemen Eksekutif: Membutuhkan laporan dan analisis untuk membuat keputusan strategis terkait manajemen arus kas dan kebijakan kredit.
+**Tim Eksekutif Bisnis:** Tim ini bertanggung jawab untuk pengambilan keputusan strategis dalam perusahaan. Mereka memerlukan informasi mengenai perilaku pelanggan untuk mengidentifikasi segmen pelanggan yang setia dan memahami faktor-faktor yang mempengaruhi retensi pelanggan. Dengan wawasan dari analisis cohort, tim ini dapat menentukan strategi pemasaran yang tepat, kebijakan penagihan yang efektif, dan inisiatif loyalitas untuk meningkatkan retensi pelanggan dan memaksimalkan pendapatan.
 
-## Metodologi
+## Rumusan Masalah
 
-Analisis retensi cohort dilakukan dengan beberapa langkah berikut:
-1. **Pembuatan Cohort** : Mengelompokkan pelanggan berdasarkan bulan pertama mereka melakukan transaksi.
-2. **Analisis Retensi** : Menghitung jumlah pelanggan yang melakukan transaksi kembali pada bulan-bulan berikutnya.
-3. **Visualisasi dengan Heatmap** : Membuat pivot table untuk visualisasi retensi cohort.
-4. **Analisis Tren** : Menganalisis tren retensi dari waktu ke waktu dan mengidentifikasi pola atau anomali.
+Perusahaan kesulitan untuk memahami pola pembayaran pelanggan dari waktu ke waktu. Ketidakpastian dalam retensi pelanggan ini dapat mempengaruhi perencanaan keuangan dan operasional perusahaan, serta menghambat pengambilan keputusan strategis terkait pengelolaan hubungan pelanggan.
+
+## Tujuan
+
+Tujuan perusahaan adalah untuk menganalisis tingkat retensi cohort pelanggan dan mengidentifikasi pola retensi dari waktu ke waktu. Dengan analisis ini, perusahaan dapat:
+
+1. Memahami tingkat retensi pelanggan pada setiap cohort bulan ke bulan.
+2. Mengembangkan strategi yang lebih efektif untuk mempertahankan pelanggan berdasarkan wawasan dari analisis retensi ini.
+
 
 ## Analisis
 
-Dari analisis cohort retensi dan visualisasi, kita bisa mendapatkan beberapa wawasan kunci:
-1. **Retensi Awal**: Tingkat retensi pada bulan pertama bervariasi antar cohort. Mengidentifikasi cohort dengan retensi awal tertinggi dapat membantu memahami faktor-faktor yang menyebabkan retensi awal yang kuat. Misalnya, kampanye pemasaran tertentu, penawaran produk, atau pengalaman pengguna pertama yang positif.
+Analisis retensi cohort dilakukan dengan beberapa langkah berikut:
 
-2. **Tren Penurunan Retensi**: Meskipun tingkat retensi cenderung menurun seiring waktu, tingkat penurunannya berbeda-beda untuk setiap cohort. Cohort yang menunjukkan penurunan retensi yang lebih lambat mengindikasikan adanya pelanggan yang lebih loyal. Menganalisis perilaku pelanggan dalam cohort ini dapat memberikan wawasan tentang strategi retensi yang efektif.
-
-3. **Cohort dengan Retensi Tinggi**: Beberapa cohort menunjukkan tingkat retensi yang lebih tinggi karena pengaruh musiman atau kampanye pemasaran khusus. Analisis lebih lanjut terhadap periode waktu tertentu atau kegiatan pemasaran yang dilakukan dapat membantu mengidentifikasi faktor-faktor yang berkontribusi terhadap peningkatan retensi pada cohort tersebut.
-
-4. **Strategi Keterlibatan Pelanggan yang Berhasil**: Cohort yang mempertahankan tingkat retensi tinggi dalam jangka waktu yang panjang menunjukkan keberhasilan strategi keterlibatan pelanggan. Strategi-strategi ini, seperti program loyalitas, interaksi pelanggan yang personal, atau layanan pelanggan yang superior, dapat diterapkan pada cohort lain untuk meningkatkan retensi secara keseluruhan.
+1. **Pembuatan Cohort:** Mengelompokkan pelanggan berdasarkan bulan pertama mereka melakukan transaksi. Contoh: semua pelanggan yang pertama kali melakukan transaksi pada Januari 2020 dimasukkan ke dalam cohort Januari 2020.
+2. **Analisis Retensi:** Menghitung jumlah pelanggan dari setiap cohort yang melakukan transaksi pada bulan-bulan berikutnya. Misalnya, berapa banyak pelanggan cohort Januari 2020 yang melakukan pembayaran kembali pada Februari 2020, Maret 2020, dan seterusnya.
+3. **Visualisasi dengan Heatmap:** Membuat pivot table untuk visualisasi retensi cohort dalam bentuk heatmap. Ini akan menunjukkan proporsi pelanggan yang tetap aktif dari setiap cohort pada bulan-bulan berikutnya.
+4. **Analisis Tren:** Menganalisis tren retensi dari waktu ke waktu dan mengidentifikasi pola atau anomali. Misalnya, melihat apakah ada penurunan signifikan pada retensi setelah beberapa bulan, atau apakah ada pola retensi yang konsisten di beberapa cohort.
 
 ## Kesimpulan
 
-Analisis retensi cohort menunjukkan variasi retensi bulan pertama dan penurunan retensi yang berbeda-beda antar cohort. Beberapa cohort mempertahankan retensi tinggi karena strategi keterlibatan yang sukses seperti program loyalitas. Disarankan untuk menganalisis dan mereplikasi strategi cohort dengan retensi tinggi serta menerapkan strategi proaktif untuk cohort dengan penurunan cepat. Pemantauan dan penyesuaian berkelanjutan sangat penting untuk meningkatkan loyalitas dan profitabilitas jangka panjang.
+Analisis retensi cohort yang dilakukan memberikan wawasan penting bagi perusahaan dalam memahami pola perilaku pelanggan dari waktu ke waktu. Berikut adalah poin-poin utama dari kesimpulan analisis ini:
+
+1. Identifikasi Pola Retensi Pelanggan:
+   - Analisis cohort membantu mengidentifikasi pola retensi pelanggan berdasarkan bulan pertama mereka melakukan transaksi. Ini memungkinkan perusahaan untuk melihat bagaimana pelanggan dari berbagai periode waktu bertahan dan berinteraksi dengan produk atau layanan yang ditawarkan.
+
+2. Penurunan Retensi dari Waktu ke Waktu:
+   - Data menunjukkan adanya tren penurunan tingkat retensi pelanggan dari waktu ke waktu. Cohort yang lebih baru cenderung memiliki tingkat retensi yang lebih rendah dibandingkan cohort yang lebih lama. Ini menunjukkan perlunya strategi retensi yang lebih efektif untuk pelanggan baru.
+
+3. Strategi Keterlibatan Pelanggan yang Berhasil:
+   - Beberapa cohort menunjukkan tingkat retensi yang tinggi dalam jangka panjang, yang menunjukkan keberhasilan strategi keterlibatan pelanggan yang diterapkan. Program loyalitas, layanan pelanggan yang baik, dan penawaran produk berkualitas tinggi adalah beberapa faktor yang mungkin berkontribusi pada keberhasilan ini.
+
+4. Rekomendasi untuk Meningkatkan Retensi:
+   - Berdasarkan analisis ini, direkomendasikan agar perusahaan melakukan analisis lebih lanjut terhadap cohort dengan retensi tinggi untuk memahami faktor keberhasilan dan mencoba mereplikasi strategi tersebut ke cohort lain.
+   - Implementasi strategi retensi yang lebih proaktif untuk cohort dengan penurunan retensi yang cepat, seperti penawaran khusus dan program keterlibatan pelanggan yang lebih intensif, dapat membantu meningkatkan tingkat retensi secara keseluruhan.
+
+5. Pemantauan dan Penyesuaian Berkelanjutan:
+   - Retensi pelanggan adalah metrik yang dinamis dan memerlukan pemantauan serta penyesuaian terus-menerus. Dengan pemantauan berkelanjutan dan penyesuaian strategi berdasarkan data terbaru, perusahaan dapat terus meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang.
+
+Dengan mengikuti rekomendasi ini, perusahaan dapat meningkatkan tingkat retensi pelanggan mereka, yang pada akhirnya akan meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang. Analisis cohort menyediakan alat yang kuat untuk memahami dan meningkatkan hubungan jangka panjang dengan pelanggan.
+
+## Rekomendasi
+Berdasarkan hasil analisis ini, beberapa rekomendasi yang dapat diambil oleh perusahaan adalah:
+
+1. **Analisis Lebih Lanjut untuk Cohort dengan Retensi Tinggi**:
+   - Lakukan analisis lebih lanjut untuk memahami faktor-faktor yang menyebabkan tingkat retensi tinggi pada cohort tertentu, seperti promosi, penawaran produk, atau layanan pelanggan.
+
+2. **Replikasi Strategi yang Berhasil**:
+   - Replikasi strategi yang berhasil diterapkan pada cohort dengan retensi tinggi ke cohort lain. Misalnya, memperluas program loyalitas yang terbukti efektif.
+
+3. **Peningkatan Strategi Retensi**:
+   - Implementasi strategi retensi yang lebih proaktif untuk cohort yang menunjukkan penurunan retensi yang cepat, seperti penawaran khusus, diskon, atau program keterlibatan pelanggan yang lebih intensif.
+
+4. **Pemantauan dan Penyesuaian Terus Menerus**:
+   - Terus memantau dan menyesuaikan strategi retensi berdasarkan data dan analisis yang diperoleh, untuk meningkatkan tingkat retensi pelanggan secara keseluruhan.
+
+Dengan mengikuti rekomendasi ini, perusahaan dapat meningkatkan tingkat retensi pelanggan mereka, yang pada akhirnya akan meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang.
 
 ## Dashboard Looker
 
