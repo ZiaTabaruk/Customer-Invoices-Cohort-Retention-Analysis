@@ -34,42 +34,33 @@ Analisis retensi cohort dilakukan dengan beberapa langkah berikut:
 
 ## Kesimpulan
 
-Analisis retensi cohort yang dilakukan memberikan wawasan penting bagi perusahaan dalam memahami pola perilaku pelanggan dari waktu ke waktu. Berikut adalah poin-poin utama dari kesimpulan analisis ini:
+1. **Cohort Januari 2019 (Cohort 2019-01)**:  
+   - Cohort ini menunjukkan performa retensi tertinggi, dengan **72% retensi pada bulan pertama**. Pada bulan ke-10, angka ini masih bertahan di **59.1%**, menjadikannya cohort dengan retensi terbaik. Kesuksesan ini dapat disebabkan oleh strategi pemasaran yang sangat efektif pada awal tahun 2019, mungkin melalui peluncuran promosi besar atau produk yang sangat diminati.
 
-1. Identifikasi Pola Retensi Pelanggan:
-   - Analisis cohort membantu mengidentifikasi pola retensi pelanggan berdasarkan bulan pertama mereka melakukan transaksi. Ini memungkinkan perusahaan untuk melihat bagaimana pelanggan dari berbagai periode waktu bertahan dan berinteraksi dengan produk atau layanan yang ditawarkan.
+2. **Cohort Februari 2019 (Cohort 2019-02)**:  
+   - Cohort ini menunjukkan penurunan yang signifikan, dengan hanya **36.44% retensi pada bulan pertama** dan **35.2% pada bulan kedua**. Penurunan ini lebih drastis dibandingkan Januari 2019, menunjukkan adanya kemungkinan perubahan strategi pemasaran atau penurunan efektivitas layanan yang mempengaruhi ketertarikan pelanggan pada produk di bulan ini.
 
-2. Penurunan Retensi dari Waktu ke Waktu:
-   - Data menunjukkan adanya tren penurunan tingkat retensi pelanggan dari waktu ke waktu. Cohort yang lebih baru cenderung memiliki tingkat retensi yang lebih rendah dibandingkan cohort yang lebih lama. Ini menunjukkan perlunya strategi retensi yang lebih efektif untuk pelanggan baru.
+3. **Cohort Maret 2019 (Cohort 2019-03)**:  
+   - Cohort ini memulai dengan **39.5% retensi di bulan pertama** tetapi mengalami penurunan yang stabil, dengan **9.2% retensi di bulan ke-10**. Ini menunjukkan adanya kehilangan pelanggan yang lebih cepat dibanding cohort Januari, yang bisa dikaitkan dengan perubahan pola permintaan atau penurunan kualitas pengalaman pelanggan.
 
-3. Strategi Keterlibatan Pelanggan yang Berhasil:
-   - Beberapa cohort menunjukkan tingkat retensi yang tinggi dalam jangka panjang, yang menunjukkan keberhasilan strategi keterlibatan pelanggan yang diterapkan. Program loyalitas, layanan pelanggan yang baik, dan penawaran produk berkualitas tinggi adalah beberapa faktor yang mungkin berkontribusi pada keberhasilan ini.
-
-4. Rekomendasi untuk Meningkatkan Retensi:
-   - Berdasarkan analisis ini, direkomendasikan agar perusahaan melakukan analisis lebih lanjut terhadap cohort dengan retensi tinggi untuk memahami faktor keberhasilan dan mencoba mereplikasi strategi tersebut ke cohort lain.
-   - Implementasi strategi retensi yang lebih proaktif untuk cohort dengan penurunan retensi yang cepat, seperti penawaran khusus dan program keterlibatan pelanggan yang lebih intensif, dapat membantu meningkatkan tingkat retensi secara keseluruhan.
-
-5. Pemantauan dan Penyesuaian Berkelanjutan:
-   - Retensi pelanggan adalah metrik yang dinamis dan memerlukan pemantauan serta penyesuaian terus-menerus. Dengan pemantauan berkelanjutan dan penyesuaian strategi berdasarkan data terbaru, perusahaan dapat terus meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang.
-
-Dengan mengikuti rekomendasi ini, perusahaan dapat meningkatkan tingkat retensi pelanggan mereka, yang pada akhirnya akan meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang. Analisis cohort menyediakan alat yang kuat untuk memahami dan meningkatkan hubungan jangka panjang dengan pelanggan.
+4. **Cohort dengan Penurunan Drastis (2019-04 hingga 2020-04)**:  
+   - Cohort ini secara konsisten menunjukkan retensi yang rendah setelah bulan kedua, dengan beberapa cohort bahkan mencapai **0% retensi** pada bulan ke-3 dan ke-4. Misalnya, **Cohort April 2019 (Cohort 2019-04)** hanya mempertahankan **9.0% pelanggan di bulan ke-5**. Kemungkinan besar, faktor seperti perubahan musiman dalam permintaan atau promosi yang kurang menarik mempengaruhi cohort-cohort ini.
 
 ## Rekomendasi
-Berdasarkan hasil analisis ini, beberapa rekomendasi yang dapat diambil oleh perusahaan adalah:
 
-1. **Analisis Lebih Lanjut untuk Cohort dengan Retensi Tinggi**:
-   - Lakukan analisis lebih lanjut untuk memahami faktor-faktor yang menyebabkan tingkat retensi tinggi pada cohort tertentu, seperti promosi, penawaran produk, atau layanan pelanggan.
+1. **Pelajari Keberhasilan Cohort Januari 2019:**
+   - Cohort Januari 2019 memiliki tingkat retensi yang sangat tinggi. Penting untuk melakukan analisis mendalam terhadap elemen-elemen spesifik yang membuat cohort ini berhasil, seperti promosi, kampanye, atau produk yang ditawarkan pada periode tersebut. Data ini bisa membantu untuk mereplikasi kesuksesan ini di cohort-cohort berikutnya.
 
-2. **Replikasi Strategi yang Berhasil**:
-   - Replikasi strategi yang berhasil diterapkan pada cohort dengan retensi tinggi ke cohort lain. Misalnya, memperluas program loyalitas yang terbukti efektif.
+2. **Evaluasi Cohort Februari dan Maret 2019:**
+   - Retensi menurun signifikan pada cohort Februari dan Maret 2019. Perusahaan perlu menganalisis apakah ada perubahan dalam strategi pemasaran atau produk pada periode tersebut yang mungkin mengakibatkan penurunan retensi. Analisis lebih lanjut dapat membantu memperbaiki kelemahan dalam strategi pemasaran.
 
-3. **Peningkatan Strategi Retensi**:
-   - Implementasi strategi retensi yang lebih proaktif untuk cohort yang menunjukkan penurunan retensi yang cepat, seperti penawaran khusus, diskon, atau program keterlibatan pelanggan yang lebih intensif.
+3. **Perbaikan Strategi untuk Cohort dengan Penurunan Cepat (2019-04 hingga 2020-04):**
+   - Cohort ini menunjukkan penurunan yang sangat cepat. Perusahaan harus mengidentifikasi penyebab utama dari penurunan ini, seperti kurangnya follow-up setelah pembelian pertama, atau tidak adanya penawaran yang menarik di bulan-bulan berikutnya. Mengimplementasikan program loyalitas atau penawaran diskon yang lebih relevan dapat membantu memperpanjang retensi pelanggan di cohort-cohort ini.
 
-4. **Pemantauan dan Penyesuaian Terus Menerus**:
-   - Terus memantau dan menyesuaikan strategi retensi berdasarkan data dan analisis yang diperoleh, untuk meningkatkan tingkat retensi pelanggan secara keseluruhan.
+4. **Pemantauan dan Penyesuaian Berkelanjutan:**
+   - Retensi pelanggan adalah metrik yang dinamis dan memerlukan pemantauan serta penyesuaian terus-menerus. Dengan pemantauan berkelanjutan dan penyesuaian strategi berdasarkan data terbaru, perusahaan dapat terus meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang.
 
-Dengan mengikuti rekomendasi ini, perusahaan dapat meningkatkan tingkat retensi pelanggan mereka, yang pada akhirnya akan meningkatkan loyalitas pelanggan dan profitabilitas jangka panjang.
+Dengan analisis mendalam dan rekomendasi yang spesifik, perusahaan dapat memahami faktor-faktor yang menyebabkan penurunan atau peningkatan retensi di berbagai cohort. Dengan menggunakan data ini, perusahaan dapat menyesuaikan strategi pemasaran dan retensi yang lebih efektif, serta menerapkan pelajaran dari cohort sukses untuk meningkatkan kinerja cohort-cohort lainnya.
 
 ## Dashboard Looker
 
